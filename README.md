@@ -17,13 +17,14 @@ MX Tracks Launcher turns your MX Bikes tracks into BeamNG.drive maps, so you can
 - **Pick your tracks:** it lists every MX Bikes track on your PC with a preview picture. Tick the ones you want and press Convert. Converted tracks are listed first.
 - **Close to the real thing:** it brings over each track's own layout, jumps, dirt and grass textures, trees, fences and buildings from your own MX Bikes copy.
 - **Play in one click:** highlight a converted track and press Play. BeamNG opens straight onto it.
+- **Multiplayer with BeamMP:** host your own BeamMP servers or join a friend's, right from the launcher. Everyone converts the track from their own MX Bikes copy, so no track files are ever sent.
 - **Tidy:** the folder icon shows where each track lives, and Delete removes a converted track from BeamNG without touching the original.
 - **Honest about limits:** tracks their makers encrypted are greyed out and marked *Protected by maker*. Scenery has no collision yet, and the lighting differs from MX Bikes.
 - **Easy to share:** it's one small ZIP with no game files inside. Friends just need both games.
 
 ## Download
 
-Get **MXTracksLauncher-1.2.0.zip** from the [Releases page](../../releases/latest).
+Get **MXTracksLauncher-1.3.0.zip** from the [Releases page](../../releases/latest).
 
 1. Extract the **whole** zip to a folder.
 2. Open `MXTracksLauncher.exe`. Keep the `beamng` folder next to it.
@@ -66,12 +67,33 @@ Converted tracks are listed first, sorted alphabetically within each group.
 - Original scenery and recognisable ground textures are imported where supported. Fallback colours are used otherwise.
 - Lighting, ground blending, and texture tiling look different from MX Bikes.
 - Scenery is visual-only with no collision. The terrain itself is drivable and has collision.
-- The launcher doesn't set up BeamMP servers for you, but the converted maps work in BeamMP (see the FAQ).
+
+## Multiplayer (BeamMP)
+
+Press **Multiplayer (BeamMP)** on the main screen.
+
+Everyone who plays needs [BeamMP](https://beammp.com) (free) and must convert the **same track** from their own MX Bikes. The server never sends MX Bikes tracks to anyone.
+
+**Hosting**
+- **Servers:** make as many as you like with **New server** and remove them with **Delete**. Each one keeps its own name, track, port, player and car limits, and vehicle list.
+- **Server key:** hosting needs a free BeamMP server key from [keymaster.beammp.com](https://keymaster.beammp.com/). Sign in, make a key and paste it in. The key stays on your PC.
+- **First start:** the launcher downloads the official BeamMP server from BeamMP's GitHub. If Windows asks about the firewall, allow private networks.
+- **Vehicles:** tick the cars players may use. Ticked **[Mod]** cars are sent to joiners from your mods folder, so only share mods whose makers allow it.
+- **Addresses:** while the server runs, the window shows your internet address and home network address with the port. Friends on your Wi-Fi use the home network address. For friends outside your home, forward that port (TCP and UDP) on your router to the home network address. **Play on this server** joins your own server.
+
+**Joining a friend**
+1. Type their address and pick the same track.
+2. Press **Join with BeamMP**.
+3. In BeamMP choose **Direct Connect** and paste the address (it's already copied).
+
+**Good to know**
+- BeamMP switches off mods the server didn't send, so for multiplayer the launcher adds a copy of the chosen track to BeamNG's levels folder. Deleting the track in the launcher removes that copy too.
+- Closing the multiplayer window stops any servers it started.
 
 ## FAQ
 
 **Can you play MX Bikes tracks in BeamNG.drive?**
-Yes. MX Tracks Launcher converts the MX Bikes tracks installed on your PC into BeamNG.drive maps, including the layout, jumps, textures and scenery. Maps are scaled 1.5× to suit cars and load in Freeroam.
+Yes. MX Tracks Launcher converts the MX Bikes tracks installed on your PC into BeamNG.drive maps, including the layout, jumps, textures and scenery. Maps are scaled 1.5× to suit cars, for Freeroam or BeamMP multiplayer.
 
 **Does it include any game files?**
 No. Each player needs their own installed BeamNG.drive and MX Bikes. The converter reads their own files.
@@ -82,8 +104,8 @@ Tracks marked *Protected by maker* were encrypted by their creators so only MX B
 **Can I drive into the fences and trees?**
 Not yet. Scenery has no collision. The terrain itself is fully drivable and collidable.
 
-**Does it work with BeamMP multiplayer?**
-Yes. Converting a track creates a mod in your BeamNG mods folder. Take the map files from that mod and add them to your BeamMP server.
+**Can I play MX Bikes tracks in BeamMP multiplayer?**
+Yes, it's built in from version 1.3.0. Press **Multiplayer (BeamMP)** to host a server or join a friend's. Every player converts the same track from their own MX Bikes copy. See [Multiplayer (BeamMP)](#multiplayer-beammp).
 
 ## What's in this repo
 
