@@ -62,16 +62,16 @@ Converted tracks are listed first, sorted alphabetically within each group.
 
 - **Close BeamNG yourself** before converting, deleting, or launching another track. The launcher never closes any game.
 - Updates are written to a temporary file first and only replace the generated map archive once they succeed. This needs enough free space for a second copy of that archive while it works. Temporary files are cleaned up afterwards.
-- Maps run in **Solo Freeroam** at **1.5× scale** so they suit cars.
+- Maps open in **Freeroam** at **1.5× scale** so they suit cars.
 - Original scenery and recognisable ground textures are imported where supported. Fallback colours are used otherwise.
 - Lighting, ground blending, and texture tiling look different from MX Bikes.
 - Scenery is visual-only with no collision. The terrain itself is drivable and has collision.
-- There's no BeamMP (multiplayer) server setup.
+- The launcher doesn't set up BeamMP servers for you, but the converted maps work in BeamMP (see the FAQ).
 
 ## FAQ
 
 **Can you play MX Bikes tracks in BeamNG.drive?**
-Yes. MX Tracks Launcher converts the MX Bikes tracks installed on your PC into BeamNG.drive maps, including the layout, jumps, textures and scenery. Maps are scaled 1.5× to suit cars and load in solo Freeroam.
+Yes. MX Tracks Launcher converts the MX Bikes tracks installed on your PC into BeamNG.drive maps, including the layout, jumps, textures and scenery. Maps are scaled 1.5× to suit cars and load in Freeroam.
 
 **Does it include any game files?**
 No. Each player needs their own installed BeamNG.drive and MX Bikes. The converter reads their own files.
@@ -83,7 +83,7 @@ Tracks marked *Protected by maker* were encrypted by their creators so only MX B
 Not yet. Scenery has no collision. The terrain itself is fully drivable and collidable.
 
 **Does it work with BeamMP multiplayer?**
-No. Converted tracks are for solo Freeroam only.
+Yes. Converting a track creates a mod in your BeamNG mods folder. Take the map files from that mod and add them to your BeamMP server.
 
 ## What's in this repo
 
