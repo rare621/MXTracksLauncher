@@ -74,6 +74,8 @@ Press **Multiplayer (BeamMP)** on the main screen.
 
 Everyone who plays needs [BeamMP](https://beammp.com) (free) and must convert the **same track** from their own MX Bikes. The server never sends MX Bikes tracks to anyone.
 
+![MX Tracks Launcher multiplayer window for hosting and joining BeamMP servers](docs/multiplayer.png)
+
 **Hosting**
 - **Servers:** make as many as you like with **New server** and remove them with **Delete**. Each one keeps its own name, track, port, player and car limits, and vehicle list.
 - **Server key:** hosting needs a free BeamMP server key from [keymaster.beammp.com](https://keymaster.beammp.com/). Sign in, make a key and paste it in. The key stays on your PC.
@@ -113,7 +115,8 @@ Yes, it's built in from version 1.3.0. Press **Multiplayer (BeamMP)** to host a 
 | --- | --- |
 | `beamng/lua/ge/extensions/mxbikesTracks.lua` | In-game BeamNG extension. It shows the track name when a converted map loads and runs the automated load/drive self-test. |
 | `beamng/scripts/mxbikes_tracks/modScript.lua` | Loads the extension when BeamNG starts |
-| `docs/screenshot.png` | Screenshot used above |
+| `docs/screenshot.png` | Main window screenshot |
+| `docs/multiplayer.png` | Multiplayer window screenshot |
 | `docs/index.html` | Project website (GitHub Pages) |
 | `docs/social-preview.png` | Link preview image |
 
