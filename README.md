@@ -1,6 +1,12 @@
-# MX Tracks Launcher
+# MX Tracks Launcher: Play MX Bikes Tracks in BeamNG.drive
 
-**Your MX Bikes tracks, ready for BeamNG.drive.**
+**Free MX Bikes to BeamNG converter. Your MX Bikes tracks, ready for BeamNG.drive.**
+
+[![Download](https://img.shields.io/github/v/release/rare621/MXTracksLauncher?label=Download&style=for-the-badge&color=1f7a63)](https://github.com/rare621/MXTracksLauncher/releases/latest)
+![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D6?style=for-the-badge)
+![BeamNG.drive](https://img.shields.io/badge/BeamNG.drive-map%20converter-e8622c?style=for-the-badge)
+
+**[Website](https://rare621.github.io/MXTracksLauncher/)** · **[Download](https://github.com/rare621/MXTracksLauncher/releases/latest)** · **[FAQ](#faq)**
 
 MX Tracks Launcher turns your MX Bikes tracks into BeamNG.drive maps, so you can drive any BeamNG car or truck on real motocross tracks, over the real jumps, whoops and berms, with BeamNG's vehicle and crash physics.
 
@@ -62,6 +68,23 @@ Converted tracks are listed first, sorted alphabetically within each group.
 - Scenery is visual-only with no collision. The terrain itself is drivable and has collision.
 - There's no BeamMP (multiplayer) server setup.
 
+## FAQ
+
+**Can you play MX Bikes tracks in BeamNG.drive?**
+Yes. MX Tracks Launcher converts the MX Bikes tracks installed on your PC into BeamNG.drive maps, including the layout, jumps, textures and scenery. Maps are scaled 1.5× to suit cars and load in solo Freeroam.
+
+**Does it include any game files?**
+No. Each player needs their own installed BeamNG.drive and MX Bikes. The converter reads their own files.
+
+**Why are some tracks greyed out?**
+Tracks marked *Protected by maker* were encrypted by their creators so only MX Bikes can open them. The launcher never unlocks them.
+
+**Can I drive into the fences and trees?**
+Not yet. Scenery has no collision. The terrain itself is fully drivable and collidable.
+
+**Does it work with BeamMP multiplayer?**
+No. Converted tracks are for solo Freeroam only.
+
 ## What's in this repo
 
 | Path | Purpose |
@@ -69,6 +92,8 @@ Converted tracks are listed first, sorted alphabetically within each group.
 | `beamng/lua/ge/extensions/mxbikesTracks.lua` | In-game BeamNG extension. It shows the track name when a converted map loads and runs the automated load/drive self-test. |
 | `beamng/scripts/mxbikes_tracks/modScript.lua` | Loads the extension when BeamNG starts |
 | `docs/screenshot.png` | Screenshot used above |
+| `docs/index.html` | Project website (GitHub Pages) |
+| `docs/social-preview.png` | Link preview image |
 
 The compiled launcher (`MXTracksLauncher.exe`) is published with each release.
 
@@ -77,6 +102,8 @@ The compiled launcher (`MXTracksLauncher.exe`) is published with each release.
 - **BeamNG.drive:** BeamNG GmbH
 - **MX Bikes:** PiBoSo
 - **Community tracks:** their original creators
+
+This is an unofficial fan tool and is not affiliated with BeamNG or PiBoSo.
 
 Your own game copies provide all of the original content. The converter and integration were developed with AI assistance, using Windows .NET Framework and BeamNG's native map and Lua facilities.
 

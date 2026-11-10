@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MX Tracks Launcher – Play MX Bikes Tracks in BeamNG.drive (Free Converter)</title>
+<meta name="description" content="Free portable Windows app that converts your MX Bikes motocross tracks into BeamNG.drive maps, with original scenery, jumps and textures. Pick tracks, convert, and play in one click.">
+<meta name="keywords" content="MX Bikes, BeamNG, BeamNG.drive, MX Bikes tracks in BeamNG, MX Bikes to BeamNG converter, BeamNG motocross map, BeamNG mod, supercross, track converter">
+<link rel="canonical" href="https://rare621.github.io/MXTracksLauncher/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#1f7a63">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MX Tracks Launcher">
+<meta property="og:title" content="MX Tracks Launcher – Play MX Bikes tracks in BeamNG.drive">
+<meta property="og:description" content="Convert your MX Bikes tracks into BeamNG.drive maps and drive any car or truck on real motocross tracks. Free and portable.">
+<meta property="og:url" content="https://rare621.github.io/MXTracksLauncher/">
+<meta property="og:image" content="https://rare621.github.io/MXTracksLauncher/social-preview.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MX Tracks Launcher – Play MX Bikes tracks in BeamNG.drive">
+<meta name="twitter:description" content="Convert your MX Bikes tracks into BeamNG.drive maps and play them in one click.">
+<meta name="twitter:image" content="https://rare621.github.io/MXTracksLauncher/social-preview.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "MX Tracks Launcher",
+  "alternateName": "MX Bikes Tracks in BeamNG",
+  "applicationCategory": "GameApplication",
+  "operatingSystem": "Windows 10, Windows 11",
+  "softwareVersion": "1.2.0",
+  "description": "Converts your MX Bikes tracks into BeamNG.drive maps with original scenery and textures, then launches BeamNG onto the track in one click.",
+  "url": "https://rare621.github.io/MXTracksLauncher/",
+  "downloadUrl": "https://github.com/rare621/MXTracksLauncher/releases/latest",
+  "screenshot": "https://rare621.github.io/MXTracksLauncher/screenshot.png",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "author": { "@type": "Person", "name": "Rare621", "url": "https://github.com/rare621" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Can you play MX Bikes tracks in BeamNG.drive?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Yes. MX Tracks Launcher converts the MX Bikes tracks installed on your PC into BeamNG.drive maps, including their layout, jumps, dirt and grass textures, trees, fences and buildings. Highlight a converted track and press Play to open BeamNG on it."}},
+    {"@type": "Question", "name": "Does MX Tracks Launcher include any game files?",
+     "acceptedAnswer": {"@type": "Answer", "text": "No. The download is one small ZIP with no game content. Each player needs their own installed copies of BeamNG.drive and MX Bikes."}},
+    {"@type": "Question", "name": "Why are some tracks greyed out?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Tracks marked Protected by maker were encrypted by their creators so only MX Bikes can open them. The launcher respects that and never unlocks them."}},
+    {"@type": "Question", "name": "Does it work with BeamMP multiplayer?",
+     "acceptedAnswer": {"@type": "Answer", "text": "No. Converted tracks are for solo Freeroam. There is no BeamMP server setup."}}
+  ]
+}
+</script>
+<style>
+  :root { --bg:#14181f; --card:#1c222b; --text:#e9edf2; --muted:#aeb6c2; --accent:#1f7a63; --hot:#e8622c; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Inter,sans-serif; }
+  .wrap { max-width:1040px; margin:0 auto; padding:0 24px; }
+  header { padding:72px 0 40px; }
+  h1 { font-size:clamp(2.2rem,5vw,3.4rem); line-height:1.08; margin:0 0 16px; letter-spacing:-.02em; }
+  h1 span { color:var(--hot); }
+  .lead { font-size:1.2rem; color:var(--muted); max-width:640px; margin:0 0 28px; }
+  .btns { display:flex; gap:12px; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:13px 22px; border-radius:8px; font-weight:600; text-decoration:none; }
+  .btn.primary { background:var(--accent); color:#fff; }
+  .btn.ghost { border:1px solid #3a4350; color:var(--text); }
+  .btn:hover { filter:brightness(1.12); }
+  .meta { color:#6f7a88; font-size:.9rem; margin-top:14px; }
+  .shot { width:100%; border-radius:12px; box-shadow:0 20px 50px rgba(0,0,0,.45); display:block; margin:24px 0 64px; }
+  h2 { font-size:1.6rem; margin:0 0 20px; }
+  section { margin-bottom:64px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  .card { background:var(--card); border-radius:10px; padding:20px 22px; }
+  .card h3 { margin:0 0 6px; font-size:1.05rem; }
+  .card p { margin:0; color:var(--muted); }
+  ol li { margin-bottom:6px; }
+  details { background:var(--card); border-radius:10px; padding:16px 20px; margin-bottom:10px; }
+  summary { cursor:pointer; font-weight:600; }
+  details p { color:var(--muted); margin:10px 0 0; }
+  code { background:#262e39; padding:2px 6px; border-radius:4px; font-size:.92em; }
+  footer { border-top:1px solid #262e39; padding:28px 0 48px; color:#6f7a88; font-size:.9rem; }
+  a { color:#5cc9a7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Play your <span>MX Bikes</span> tracks in BeamNG.drive</h1>
+    <p class="lead">MX Tracks Launcher is a free, portable Windows app that turns your MX Bikes tracks into BeamNG.drive maps, so you can drive any BeamNG car or truck over real motocross jumps, whoops and berms.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://github.com/rare621/MXTracksLauncher/releases/latest">Download v1.2.0</a>
+      <a class="btn ghost" href="https://github.com/rare621/MXTracksLauncher">View on GitHub</a>
+    </div>
+    <p class="meta">Windows 10/11 · .NET Framework 4.8 · Requires your own BeamNG.drive and MX Bikes</p>
+  </header>
+
+  <img class="shot" src="screenshot.png" alt="MX Tracks Launcher window listing converted MX Bikes tracks such as 2012 Millville and Glen Helen, ready to play in BeamNG.drive" width="1187" height="828">
+
+  <section>
+    <h2>Features</h2>
+    <div class="grid">
+      <div class="card"><h3>Pick your tracks</h3><p>Lists every MX Bikes track on your PC with a preview picture. Tick the ones you want and press Convert. Converted tracks are listed first.</p></div>
+      <div class="card"><h3>Close to the real thing</h3><p>Brings over each track's own layout, jumps, dirt and grass textures, trees, fences and buildings from your own MX Bikes copy.</p></div>
+      <div class="card"><h3>Play in one click</h3><p>Highlight a converted track and press Play. BeamNG opens straight onto it.</p></div>
+      <div class="card"><h3>Tidy</h3><p>The folder icon shows where each track lives, and Delete removes a converted track from BeamNG without touching the original.</p></div>
+      <div class="card"><h3>Honest about limits</h3><p>Tracks their makers encrypted are greyed out and marked Protected by maker. Scenery has no collision yet, and lighting differs from MX Bikes.</p></div>
+      <div class="card"><h3>Easy to share</h3><p>One small ZIP with no game files inside. Friends just need both games.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How to install</h2>
+    <ol>
+      <li>Download <strong>MXTracksLauncher-1.2.0.zip</strong> from the <a href="https://github.com/rare621/MXTracksLauncher/releases/latest">Releases page</a>.</li>
+      <li>Extract the <strong>whole</strong> zip to a folder.</li>
+      <li>Open <code>MXTracksLauncher.exe</code>. Keep the <code>beamng</code> folder next to it.</li>
+      <li>Tick the tracks you want, press <strong>Convert checked</strong>, then highlight one and press <strong>Play</strong>.</li>
+    </ol>
+    <p>Steam libraries on any drive and standalone (non-Steam) MX Bikes installs are found automatically.</p>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <details><summary>Can you play MX Bikes tracks in BeamNG.drive?</summary><p>Yes. MX Tracks Launcher converts the MX Bikes tracks installed on your PC into BeamNG.drive maps, including their layout, jumps, textures and scenery. Maps are scaled 1.5× to suit cars and load in solo Freeroam.</p></details>
+    <details><summary>Does it include any game files?</summary><p>No. The download contains no game content. Each player needs their own installed BeamNG.drive and MX Bikes, and the converter reads their own files.</p></details>
+    <details><summary>Why are some tracks greyed out?</summary><p>"Protected by maker" tracks were encrypted by their creators so only MX Bikes can open them. The launcher respects that and never unlocks them. "Cannot convert" means a layout the launcher can't read yet.</p></details>
+    <details><summary>Can I drive into the fences and trees?</summary><p>Not yet. Scenery is visual only and has no collision. The terrain itself is fully drivable and collidable.</p></details>
+    <details><summary>Does it work with BeamMP multiplayer?</summary><p>No. There is no BeamMP server setup; converted tracks are for solo Freeroam.</p></details>
+    <details><summary>Can I share converted maps?</summary><p>Please don't. Share the small launcher zip instead, so each friend converts the tracks from their own copy.</p></details>
+  </section>
+</div>
+<footer>
+  <div class="wrap">
+    BeamNG.drive is by BeamNG GmbH. MX Bikes is by PiBoSo. Community tracks belong to their original creators. This is an unofficial fan tool and is not affiliated with either.<br>
+    Converter © Rare621. All rights reserved; Melty remixes allowed.
+  </div>
+</footer>
+</body>
+</html>
